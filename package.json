@@ -2,7 +2,7 @@
   "name": "insight-api-zcash",
   "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/zcashblockchain/insight-api-zcash.git",
+  "repository": "git-ssh://github.com/zcashblockchain/insight-api-zcash.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "zcashblockchain/bitcore-lib-zcash",
-    "bitcore-message-zcash": "zcashblockchain/bitcore-message-zcash",
+    "bitcore-lib-zcash": "git+ssh://github.com/zcashblockchain/bitcore-lib-zcash",
+    "bitcore-message-zcash": "git+ssh://github.com/zcashblockchain/bitcore-message-zcash",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
