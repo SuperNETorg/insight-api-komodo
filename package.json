@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-zcash",
+  "name": "insight-api-komodo",
   "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git-ssh://git@github.com:zcashblockchain/insight-api-zcash.git",
+  "repository": "git-ssh://git@github.com:supernetorg/insight-api-komodo.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,15 +42,15 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/zcashblockchain/insight-api-zcash/issues"
+    "url": "https://github.com/supernetorg/insight-api-komodo/issues"
   },
-  "homepage": "https://github.com/zcashblockchain/insight-api-zcash",
+  "homepage": "https://github.com/supernetorg/insight-api-komodo",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "zcash api",
+    "komodo api",
     "blockchain api",
     "json",
     "bitcore"
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "git+ssh://git@github.com:zcashblockchain/bitcore-lib-zcash",
-    "bitcore-message-zcash": "git+ssh://git@github.com:zcashblockchain/bitcore-message-zcash",
+    "bitcore-lib-komodo": "git+ssh://git@github.com:supernetorg/bitcore-lib-komodo",
+    "bitcore-message-komodo": "git+ssh://git@github.com:supernetorg/bitcore-message-komodo",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
