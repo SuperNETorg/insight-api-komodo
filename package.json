@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-komodo",
-  "description": "A Komodo blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-safecoin",
+  "description": "A Safecoin blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git-ssh://git@github.com:supernetorg/insight-api-komodo.git",
+  "repository": "git-ssh://git@github.com:Fair-Exchange/insight-api-safecoin.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,15 +42,15 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/supernetorg/insight-api-komodo/issues"
+    "url": "https://github.com/Fair-Exchange/insight-api-safecoin/issues"
   },
-  "homepage": "https://github.com/supernetorg/insight-api-komodo",
+  "homepage": "https://github.com/Fair-Exchange/insight-api-safecoin",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "komodo api",
+    "safecoin api",
     "blockchain api",
     "json",
     "bitcore"
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-komodo": "git+ssh://git@github.com:supernetorg/bitcore-lib-komodo",
-    "bitcore-message-komodo": "git+ssh://git@github.com:supernetorg/bitcore-message-komodo",
+    "bitcore-lib-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-lib-safecoin",
+    "bitcore-message-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-message-safecoin",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",

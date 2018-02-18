@@ -7,7 +7,7 @@ function CurrencyController(options) {
   var refresh = options.currencyRefresh || CurrencyController.DEFAULT_CURRENCY_DELAY;
   this.currencyDelay = refresh * 60000;
   this.bitstampRate = 0; // USD/BTC
-  this.poloniexRate = 0; // BTC/KMD
+  this.poloniexRate = 0; // BTC/SAFE
   this.timestamp = Date.now();
 }
 
