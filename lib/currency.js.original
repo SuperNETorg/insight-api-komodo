@@ -6,8 +6,8 @@ function CurrencyController(options) {
   this.node = options.node;
   var refresh = options.currencyRefresh || CurrencyController.DEFAULT_CURRENCY_DELAY;
   this.currencyDelay = refresh * 60000;
-  this.bitstampRate = BTC/LTC; // USD/BTC
-  this.poloniexRate = BTC/XMR; // BTC/SAFE
+  this.bitstampRate = 0; // USD/BTC
+  this.poloniexRate = 0; // BTC/SAFE
   this.timestamp = Date.now();
 }
 
@@ -25,7 +25,13 @@ CurrencyController.prototype.index = function(req, res) {
       if (!err && response.statusCode === 200) {
         self.bitstampRate = parseFloat(JSON.parse(body).last);
       }
-        self.poloniexRate = '0.00012909';
+      request('https://poloniex.com/public?command=returnTicker', function(err, response, body) {
+        if (err) {
+          self.node.log.error(err);
+        }
+        if (!err && response.statusCode === 200) {
+          self.poloniexRate = parseFloat(JSON.parse(body).BTC_SAFE.last);
+        }
         res.jsonp({
           status: 200,
           data: {
@@ -33,6 +39,7 @@ CurrencyController.prototype.index = function(req, res) {
           }
         });
       });
+    });
   } else {
     res.jsonp({
       status: 200,
