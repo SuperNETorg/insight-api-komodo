@@ -1,30 +1,9 @@
 [
   {
-    "poolName": "Bitfly",
-    "url": "https://zcash.flypool.org/",
+    "poolName": "equipool.1ds.us",
+    "url": "https://equipool.1ds.us/getting_started",
     "searchStrings": [
-      "/flypool/"
-    ]
-  },
-  {
-    "poolName": "NaN",
-    "url": "",
-    "searchStrings": [
-      "/NaN"
-    ]
-  },
-  {
-    "poolName": "Stratum",
-    "url": "",
-    "searchStrings": [
-      "/nodeStratum/"
-    ]
-  },
-  {
-    "poolName": "Zmine",
-    "url": "https://zmine.io/",
-    "searchStrings": [
-      "{ZMINE.IO}"
+      "equipool.1ds.us"
     ]
   }
 ]
