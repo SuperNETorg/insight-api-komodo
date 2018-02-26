@@ -5,5 +5,12 @@
     "searchStrings": [
       "equipool.1ds.us"
     ]
+  },
+ {
+    "poolName": "Catspool",
+    "url": "http://safecoin.catspool.org/",
+    "searchStrings": [
+      "safecoin.catspool.org"
+    ]
   }
 ]
