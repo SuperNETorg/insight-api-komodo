@@ -12,5 +12,12 @@
     "searchStrings": [
       "safecoin.catspool.org"
     ]
+  },
+  {
+      "poolName": "Miningspeed",
+      "url": "https://safecoin.miningspeed.com/",
+      "searchStrings": [
+      "miningspeed"
+      ]
   }
 ]
