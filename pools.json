@@ -19,5 +19,12 @@
       "searchStrings": [
       "miningspeed"
       ]
+  },
+  {
+      "poolName": "Lucky-Lining(UA)",
+      "url": "https://safe.lucky-mining.com.ua/",
+      "searchStrings": [
+      "lucky-mining.com.ua"
+    ]
   }
 ]
