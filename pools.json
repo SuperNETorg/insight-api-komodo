@@ -27,4 +27,22 @@
       "lucky-mining.com.ua"
     ]
   }
+  {
+    "poolName": "pool.sexy",
+    "url": "safe.pool.sexy",
+    "searchStrings": [
+      "pool.sexy"
+    ]
+  }
+  {
+    "poolName": "Nibiru Pool",
+    "url": "safe.nibirupool.com",
+    "searchStrings": [
+      "nibiru"
+    ]
+}
+    
+
+
+
 ]
