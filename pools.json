@@ -40,9 +40,13 @@
     "searchStrings": [
       "NibiruPool"
     ]
+  },
+  {
+    "poolName": "COINBLOCKERS",
+    "url": "https://safe.coinblockers.com/",
+    "searchStrings": [
+      "coinblockers.com - https://coinblockers.com/"
+    ]
 }
-    
-
-
 
 ]
