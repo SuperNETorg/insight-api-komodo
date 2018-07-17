@@ -47,6 +47,13 @@
     "searchStrings": [
       "coinblockers.com - https://coinblockers.com/"
     ]
+  },
+{
+    "poolName": "MinerMore.com",
+    "url": "https://minermore.com/pool/SAFE/",
+    "searchStrings": [
+      "minermore.com"
+    ]
 }
 
 ]
