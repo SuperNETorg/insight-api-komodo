@@ -48,6 +48,13 @@
       "coinblockers"
     ]
   },
+  {
+    "poolName": "Official SafeCoin Pool (DEV TEAM)",
+    "url": "https://pool.safecoin.org",
+    "searchStrings": [
+      ""
+    ]
+  },
 {
     "poolName": "MinerMore.com",
     "url": "https://minermore.com/pool/SAFE/",
