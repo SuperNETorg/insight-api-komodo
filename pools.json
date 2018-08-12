@@ -21,10 +21,24 @@
     ]
   },
   {
-    "poolName": "Catspool",
+    "poolName": "Catspool Europe",
     "url": "http://safecoin.catspool.org/",
     "searchStrings": [
-      "safecoin.catspool.org"
+      "safecoin.catspool.org eu"
+    ]
+  },
+   {
+    "poolName": "Catspool North America",
+    "url": "http://safecoin.catspool.org/",
+    "searchStrings": [
+      "safecoin.catspool.org us"
+    ]
+   },
+  {
+    "poolName": "Catspool Asia",
+    "url": "http://safecoin.catspool.org/",
+    "searchStrings": [
+      "safecoin.catspool.org asia"
     ]
   },
   {
