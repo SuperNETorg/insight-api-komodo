@@ -89,6 +89,34 @@
     "searchStrings": [
       "minermore.com"
     ]
+  },
+{
+    "poolName": "Voidr.net",
+    "url": "https://safecoin.voidr.net/",
+    "searchStrings": [
+      "Voidr https://voidr.net"
+    ]
+},
+{
+    "poolName": "Solopool.org",
+    "url": "https://safe.solopool.org",
+    "searchStrings": [
+      "solopool.com"
+    ]
+},
+{
+    "poolName": "Equihub.pro",
+    "url": "https://safecoin.equihub.pro/",
+    "searchStrings": [
+      "equihub.pro"
+    ]
+},
+{
+    "poolName": "Suprnova.cc",
+    "url": "https://safe.suprnova.cc/",
+    "searchStrings": [
+      "suprnova.cc"
+    ]
 }
 
 ]
