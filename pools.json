@@ -1,16 +1,44 @@
 [
   {
-    "poolName": "equipool.1ds.us",
+    "poolName": "Equipool Asia",
     "url": "https://equipool.1ds.us/getting_started",
     "searchStrings": [
-      "equipool.1ds.us"
+      "Equipool Asia"
     ]
   },
- {
-    "poolName": "Catspool",
+  {
+    "poolName": "Equipool Europe",
+    "url": "https://equipool.1ds.us/getting_started",
+    "searchStrings": [
+      "Equipool Europe"
+    ]
+  },
+  {
+    "poolName": "Equipool North America",
+    "url": "https://equipool.1ds.us/getting_started",
+    "searchStrings": [
+      "Equipool North America"
+    ]
+  },
+  {
+    "poolName": "Catspool Europe",
     "url": "http://safecoin.catspool.org/",
     "searchStrings": [
-      "safecoin.catspool.org"
+      "safecoin.catspool.org eu"
+    ]
+  },
+   {
+    "poolName": "Catspool North America",
+    "url": "http://safecoin.catspool.org/",
+    "searchStrings": [
+      "safecoin.catspool.org us"
+    ]
+   },
+  {
+    "poolName": "Catspool Asia",
+    "url": "http://safecoin.catspool.org/",
+    "searchStrings": [
+      "safecoin.catspool.org asia"
     ]
   },
   {
@@ -52,7 +80,7 @@
     "poolName": "Official SafeCoin Pool (DEV TEAM)",
     "url": "https://pool.safecoin.org",
     "searchStrings": [
-      ""
+      "safecoin.org"
     ]
   },
 {
@@ -60,6 +88,34 @@
     "url": "https://minermore.com/pool/SAFE/",
     "searchStrings": [
       "minermore.com"
+    ]
+  },
+{
+    "poolName": "Voidr.net",
+    "url": "https://safecoin.voidr.net/",
+    "searchStrings": [
+      "Voidr https://voidr.net"
+    ]
+},
+{
+    "poolName": "Solopool.org",
+    "url": "https://safe.solopool.org",
+    "searchStrings": [
+      "solopool.org"
+    ]
+},
+{
+    "poolName": "Equihub.pro",
+    "url": "https://safecoin.equihub.pro/",
+    "searchStrings": [
+      "equihub.pro"
+    ]
+},
+{
+    "poolName": "Suprnova.cc",
+    "url": "https://safe.suprnova.cc/",
+    "searchStrings": [
+      "suprnova.cc"
     ]
 }
 
