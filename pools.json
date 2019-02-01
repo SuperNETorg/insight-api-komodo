@@ -117,6 +117,12 @@
     "searchStrings": [
       "suprnova.cc"
     ]
+},
+{
+    "poolName": "SafeCoinPool.Club",
+    "url": "http://safecoinpool.club/",
+    "searchStrings": [
+      "SafeCoinPool.Club"
+    ]
 }
-
 ]
