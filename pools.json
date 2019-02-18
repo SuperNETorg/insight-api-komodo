@@ -124,5 +124,12 @@
     "searchStrings": [
       "SafeCoinPool.Club"
     ]
-}
+},
+{
+    "poolName": "Zergpool",
+    "url": "http://zergpool.io/",
+    "searchStrings": [
+      "Zergpool http://zergpool.com"
+    ]
+},
 ]
