@@ -2,7 +2,7 @@
 
 A Safecoin blockchain REST and web socket API service for [Bitcore Node](https://github.com/bitpay/bitcore-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/bitpay/insight-ui.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/Fair-Exchange/insight-ui-safecoin.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 npm install -g bitcore-node@latest
 bitcore-node create mynode
 cd mynode
-bitcore-node install insight-api-safecoin
+bitcore-node install git://github.com/Fair-Exchange/insight-api-safecoin.git
 bitcore-node start
 ```
 
