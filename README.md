@@ -7,7 +7,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 ## Getting Started
 
 ```bashl
-npm install -g bitcore-node@latest
+npm install -g git://github.com/Fair-Exchange/bitcore-node-safecoin.git
 bitcore-node create mynode
 cd mynode
 bitcore-node install git://github.com/Fair-Exchange/insight-api-safecoin.git
