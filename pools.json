@@ -131,5 +131,12 @@
     "searchStrings": [
       "Zergpool http://zergpool.com"
     ]
+},
+{
+    "poolName": "Skypool",
+    "url": "http://safe.skypool.co/",
+    "Skypool.co": [
+      ""
+    ]
   }
 ]
