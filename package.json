@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-lib-safecoin",
-    "bitcore-message-safecoin": "git+ssh://git@github.com:Fair-Exchange/bitcore-message-safecoin",
+    "bitcore-lib-safecoin": "git+https://github.com/Fair-Exchange/bitcore-lib-safecoin",
+    "bitcore-message-safecoin": "git+https://github.com/Fair-Exchange/bitcore-message-safecoin",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
